@@ -8,6 +8,12 @@
         <title>Login</title>
     </head>
     <body class="text-center">
+        <noscript>
+            <div style="color: red; text-align: center; background: yellow; padding: 10px;">
+                ¡Advertencia! JavaScript está desactivado o no es compatible con tu navegador.
+                Para usar esta aplicación, debes activar JavaScript.
+            </div>
+        </noscript>
         <div class="container custom-container">
             <form class="login-form justify-content-center"  onsubmit="return login()" method="POST">
                 <h1 class="h3 mb-3 mt-3 font-weight-normal">Inicia Sesión</h1>

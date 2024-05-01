@@ -20,6 +20,12 @@ if ($token->verificarToken($_SESSION['id_usuario'])) {
 
 </head>
 <body>
+        <noscript>
+            <div style="color: red; text-align: center; background: yellow; padding: 10px;">
+                ¡Advertencia! JavaScript está desactivado o no es compatible con tu navegador.
+                Para usar esta aplicación, debes activar JavaScript.
+            </div>
+        </noscript>
     <header id="cabecera" class="navbar navbar-light" style="background-color: #e3f2fd;">
         <div class="container">
             <a class="navbar-brand" href="principal.php">
